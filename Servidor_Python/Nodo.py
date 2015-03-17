@@ -18,7 +18,7 @@ class NodoAVL():
         self.card = card
         self.Adireccion = Adireccion
     def incertar(self,nuevo):
-        if self.tel>nuevo.tel:
+        if self.nickname>nuevo.nickname:
             if self.izq is None:
                 self.izq = nuevo
 

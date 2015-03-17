@@ -12,4 +12,10 @@ class ArbolAVL():
             aux = NodoAVL()
             aux.NodoAVL(nombre,password,nickname,direccion,telefono,card,Adireccion)
             self.raiz.incertar(aux)
-
+    def equilibrado(self,raiz):
+        if raiz != None:
+            izq = self.equilibrado(self.raiz.izq)
+            der = self.equilibrado(self.raiz.der)
+            return 2
+        else:
+            return 0

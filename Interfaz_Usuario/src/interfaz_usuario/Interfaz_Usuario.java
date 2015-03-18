@@ -16,6 +16,8 @@ public class Interfaz_Usuario {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Interfaz ventana = new Interfaz();
+        ventana.setVisible(true);
     }
     
 }
